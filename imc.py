@@ -1,6 +1,6 @@
 
 def calcular_imc(peso, altura):
-    return peso * (altura * altura)  # Fórmula errada
+    return peso / (altura * altura)  
 
 
 def classificar_imc(imc):
