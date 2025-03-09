@@ -1,8 +1,7 @@
 
 def calcular_imc(peso, altura):
-    if altura <= 0 or peso <= 0:
-        return "Entrada inválida"
-    return peso / (altura * altura)
+    return peso * (altura * altura)  # Fórmula errada
+
 
 def classificar_imc(imc):
     if imc < 18.5:
